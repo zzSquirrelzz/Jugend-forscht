@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Allergie Scan",
+    "slug": "JugendForscht",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./adaptive-icon.png",
+        "backgroundColor": "#79b1c9",
+        "monochromeImage": "./monochromeicon.png"
+      },
+      "package": "com.gregyr.JugendForscht"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e05a88e5-691a-4473-8ec4-229ee7bd70a4"
+      }
+    }
+  }
+}
